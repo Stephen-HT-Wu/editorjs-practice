@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor.js 練習場</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section>
+        <h2>編輯區</h2>
+        <div id="editor"></div>
+        <div class="actions">
+          <button id="save">save() → 右側</button>
+          <button id="render">右側 JSON → render()</button>
+        </div>
+      </section>
+      <section>
+        <h2>輸出 JSON</h2>
+        <textarea id="output" spellcheck="false"></textarea>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
